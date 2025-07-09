@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro resposta
+
+		escreva("Informe uma temperatura: ")
+		leia(resposta)
+
+		se(resposta < 0){
+		escreva("A temperatura é negativa")
+
+		}senao{
+		escreva("A temperatura é positiva")
+		}
+	}
+}
