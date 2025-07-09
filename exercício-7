@@ -1,0 +1,39 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		inteiro n1
+		inteiro n2
+		inteiro n3
+		
+		escreva("Informe três números: ")
+		leia(n1, n2, n3)
+
+		se(n1 > n2 e n1 > n3 e n2 > n3){
+		escreva(n1, ",", n2, ",", n3)
+
+		}
+		se(n1 > n2 e n1 > n3 e n3 > n2){
+		escreva(n1, ",", n3, ",", n2)
+
+		}
+		se(n2 > n1 e n2 > n3 e n1 > n3){
+		escreva(n2, ",", n1, ",", n3)
+
+		}
+		se(n2 > n1 e n2 > n3 e n3 > n1){
+		escreva(n2, ",", n3, ",", n1)
+
+		}
+		se(n3 > n1 e n3 > n2 e n1 > n2){
+		escreva(n3, ",", n1, ",", n2)
+
+		}
+		se(n3 > n1 e n3 > n2 e n2 > n1){
+		escreva(n3, ",", n2, ",", n1)
+
+		}
+	}
+}
