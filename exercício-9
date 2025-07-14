@@ -1,0 +1,39 @@
+{
+	
+	funcao inicio()
+	{
+		caracter v1 = 'a' 
+		caracter v2 = 'e'
+		caracter v3 = 'i'
+		caracter v4 = 'o'
+		caracter v5 = 'u'
+		caracter resposta
+
+		escreva("Me informe uma letra: ")
+		leia(resposta)
+		
+		se(resposta == v1){
+			escreva("A letra informada é uma vogal")
+
+		}
+		se(resposta == v2){
+			escreva("A letra informada é uma vogal")
+
+		}
+		se(resposta == v3){
+			escreva("A letra informada é uma vogal")
+
+		}
+		se(resposta == v4){
+			escreva("A letra informada é uma vogal")
+
+		}
+		se(resposta == v5){
+			escreva("A letra informada é uma vogal")
+
+		}senao{
+			escreva("A letra informada é uma consoante")
+		}
+			
+	}
+}
