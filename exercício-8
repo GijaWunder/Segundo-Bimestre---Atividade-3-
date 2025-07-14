@@ -1,0 +1,41 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro lado1
+		inteiro lado2
+		inteiro lado3
+
+		escreva("Quais as medidas que você deseja? ")
+		leia(lado1, lado2, lado3)
+
+		se(lado1 + lado2 > lado3 e lado1 + lado3 > lado2 e lado2 + lado3 > lado1){
+			escreva("É possível fazer um triângulo com essas medidas")
+		
+		}senao{
+			escreva("Não é possível fazer um triângulo com essas medidas")
+		}
+		se(lado1 == lado2 e lado1 == lado3 e lado2 == lado3){
+			escreva("\nEsse triângulo é equilátero")
+
+		}
+		se(lado1 == lado2 e lado3 != lado2 e lado3 != lado1){
+			escreva("\nEsse triângulo é isósceles")
+
+		}
+		se(lado2 == lado3 e lado1 != lado2 e lado1 != lado3){
+			escreva("\nEsse triângulo é isósceles")
+
+		}
+		se(lado3 == lado1 e lado2 != lado1 e lado2 != lado3){
+			escreva("\nEsse triângulo é isósceles")
+
+		}
+		se(lado1 != lado2 e lado1 != lado3 e lado3 != lado2){
+			escreva("\nEsse triângulo é escaleno")
+			
+		}
+		
+	}
+}
