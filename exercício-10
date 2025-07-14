@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Km
+		real multa = 7.00
+		inteiro acima_Km
+
+		escreva("Quantos Km/h o carro estava? ")
+		leia(Km)
+
+		acima_Km = Km - 80
+
+		se(Km <= 80){
+			escreva("O carro estava no limite de velocidade")
+
+		}
+		se(Km > 80){
+			escreva("O carro passou do limite de velocidade e terá que pagar multa que vai costar ", acima_Km * multa, " reais")
+
+		}
+	}
+}
