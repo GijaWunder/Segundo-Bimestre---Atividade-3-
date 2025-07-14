@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro nota1
+		inteiro nota2
+		inteiro media
+
+		escreva("Quais foram as suas notas desse ano? ")
+		leia(nota1, nota2)
+
+		media = (nota1 + nota2) / 2
+
+		se(media >= 7 e media < 10){
+			escreva("Você foi aprovado")
+			
+		}
+		se(media < 7){
+			escreva("Você foi reprovado")
+			
+		}
+		se(media == 10){
+			escreva("Parabéns, você foi aprovado com distinção!!")
+		}
+	}
+}
