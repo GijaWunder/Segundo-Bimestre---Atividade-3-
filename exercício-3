@@ -1,0 +1,23 @@
+programa
+{
+	inclua biblioteca Matematica
+ --> m
+	
+	funcao inicio()
+	{
+		real Km
+		inteiro diaria_carro
+
+		escreva("Quntos dias você ficou com o carro? ")
+		leia(diaria_carro)
+		
+		escreva("Quantos Km você andou com o carro? ")
+		leia(Km)
+
+		real Km_rodado = Km * 0.15
+
+		escreva("Você tem que pagar ", 60.00 * diaria_carro, " reais pela diaria e ", m.arredondar(Km_rodado, 2), " reais")
+
+	}
+}
+ 
